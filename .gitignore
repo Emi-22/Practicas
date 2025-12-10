@@ -1,0 +1,68 @@
+# IDE y configuración local
+/.idea/
+*.iml
+*.iws
+.DS_Store
+.gradle/
+/local.properties
+local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/dictionaries
+/.idea/shelf
+/.idea/httpRequests
+.vscode/
+
+# Compilación y artefactos generados
+/build
+**/build/
+**/captures/
+.externalNativeBuild
+.cxx/
+bin/
+gen/
+out/
+*.log
+*.hprof
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Reportes de análisis
+lint-results*.xml
+*.sarif
+
+# Artefactos de distribución
+*.apk
+*.aab
+*.ap_
+*.aar
+
+# Binarios intermedios
+*.dex
+*.class
+
+# Firmas y claves
+*.keystore
+*.jks
+*.pem
+**/debug.keystore
+
+# Configuración de servicios
+google-services.json
+
+# Navegación de Android Studio
+.navigation/
+
+# Residuos de merges/parches
+*.orig
+*.rej
